@@ -100,22 +100,22 @@
 	   <main id="main-holder">
     <h1 id="login-header">Enter Login Information</h1>
     
-    <div id="login-error-msg-holder">
-      <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
-    </div>
-    
+      
     <form id="login-form">
-      <label>Enter username:</label><input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username"><br/>
+		<input type="radio" id="data capturer" name="data capture" value="Data Capture">
+<label for="data capture">Data Capture</label>
+<input type="radio" id="Physician" name="physician" value="Physician">
+<label for="Physician">Physician</label>
+<input type="radio" id="operational manager" name="Operational Manager" value="Operational Manager">
+<label for="Operational Manager">Operational Manager</label><br/><br/>
+      <label>Enter username:</label><input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username"><br/><br/>
       <label>Enter Password:</label><input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password"><br/>
 		<br/>
-		<input type="submit" value="Login" id="login-form-submit">
-    </form>
-		<input type="radio" id="data capturer" name="data capture" value="Data Capture">
-<label for="data capture">Data Capture</label><br>
-<input type="radio" id="Physician" name="physician" value="Physician">
-<label for="Physician">Physician</label><br>
-<input type="radio" id="operational manager" name="Operational Manager" value="Operational Manager">
-<label for="Operational Manager">Operational Manager</label><br/>
+		<input type="submit" value="Login" id="login-form-submit"><br/><br/>
+		   </form>
+ <div id="login-error-msg-holder">
+      <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
+    </div>
   </main>
   </body>
 </html>
