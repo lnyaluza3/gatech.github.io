@@ -91,17 +91,16 @@
       <script src="javascripts/all.js"></script>
   </head>
 
-  <body>
-       <h1>Welcome to Health Monitor App</h1>
-	   <br/>
-	   <br/>
+  <body><div style="align-content: center; align-items: center;margin: 5% 20% 5% 20%; ">
+       <h1 style="margin:0 0 0 10%;">Welcome to Health Monitor App</h1>
+       <br/>
 	   <br/>
 	   <br/>
 	   <main id="main-holder">
-    <h1 id="login-header">Enter Login Information</h1>
+    <h1 id="login-header" style="margin:0 0 0 10%;">Enter Login Information</h1>
     
       
-    <form id="login-form">
+    <form id="login-form" style="margin:0 5% 0 5%;">
 		<input type="radio" id="data capturer" name="data capture" value="Data Capture">
 <label for="data capture">Data Capture</label>
 <input type="radio" id="Physician" name="physician" value="Physician">
@@ -112,10 +111,11 @@
       <label>Enter Password:</label><input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password"><br/>
 		<br/>
 		<input type="submit" value="Login" id="login-form-submit"><br/><br/>
-		   </form>
+	     </form>
  <div id="login-error-msg-holder">
       <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
     </div>
   </main>
-  </body>
+	  </div>
+</body>
 </html>
