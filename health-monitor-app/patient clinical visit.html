@@ -9,9 +9,57 @@
 
 <body style="margin:5% 15% 5% 15%;">
 	<h1>Enter patient's clinical data</h1>
-	<br>
-	<br>
-	<label style="align-items:center;">Patient Name:</label><input style="clear: left" type="text" name="pname"><br>
-	<label style="align-items:center;">Patient Surname:</label><input style="clear: left" type="text" name="psname">
+	    <div id='holder' >
+      <h2>Health Monitor App</h2>
+
+      <h2>Patient Resource</h2>
+      <table>
+        <tr>
+          <th>First Name:</th>
+          <td id='fname'>Luyolo</td>
+        </tr>
+        <tr>
+          <th>Last Name:</th>
+          <td id='lname'>Nyaluza</td>
+        </tr>
+        <tr>
+          <th>Gender:</th>
+          <td id='gender'>Male</td>
+        </tr>
+        <tr>
+          <th>Date of Birth: </th>
+          <td id='birthdate'> 20/07/1985</td>
+        </tr>
+      </table>
+			<tr>
+          <th>Visit Number: </th>
+          <td>1</td>
+        </tr>
+      <h2>Observation Resource</h2>
+      <table>
+        <tr>
+          <th>Height:</th>
+          <td id='height'><input type="text"></td>
+        </tr>
+        <tr>
+          <th>Systolic Blood Pressure:</th>
+          <td id='systolicbp'><input type="text"></td>
+
+        </tr>
+        <tr>
+          <th>Diastolic Blood Pressure:</th>
+          <td id='diastolicbp'><input type="text"></td>
+        </tr>
+        <tr>
+          <th>LDL:</th>
+          <td id='ldl'><input type="text"></td>
+        </tr>
+        <tr>
+          <th>HDL:</th>
+          <td id='hdl'><input type="text"></td>
+        </tr>
+      </table>
+		<label>Additional Comments: </label><input type="text" name="comments" style="height:200px;width:200px;">
+			<input type="submit" value="Capture visit" id="login-form-submit">
 </body>
 </html>
